@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Setup community and extra repos
+
+# Check if they already exist
+if cat /etc/pacman.conf | grep community >&/dev/null; then exit; fi
+
+# Install and setup
+sudo pacman -S --needed --noconfirm artix-archlinux-support
+LINES="
+[extra]
+Include = /etc/pacman.d/mirrorlist-arch
+
+[community]
+Include = /etc/pacman.d/mirrorlist-arch"
+echo "$LINES" | sudo tee -a /etc/pacman.conf
+sudo pacman-key --populate archlinux
+sudo pacman -Sy
