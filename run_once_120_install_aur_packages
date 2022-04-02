@@ -2,4 +2,5 @@
 
 yay -S --noconfirm --needed \
 	hypr-git \
-	librewolf-bin
+	librewolf-bin \
+	neovim-plug
