@@ -7,4 +7,7 @@ sudo pacman -S --noconfirm --needed \
 	kitty \
 	ttf-fira-code \
 	neovim \
-	xf86-input-libinput
+	xf86-input-libinput \
+	bspwm \
+	sxhkd \
+	picom
