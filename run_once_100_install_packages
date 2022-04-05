@@ -10,4 +10,5 @@ sudo pacman -S --noconfirm --needed \
 	bspwm \
 	sxhkd \
 	picom \
-	rofi
+	rofi \
+	feh
