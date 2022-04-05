@@ -9,4 +9,5 @@ sudo pacman -S --noconfirm --needed \
 	xf86-input-libinput \
 	bspwm \
 	sxhkd \
-	picom
+	picom \
+	rofi
