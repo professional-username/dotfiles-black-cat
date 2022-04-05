@@ -2,4 +2,5 @@
 
 yay -S --noconfirm --needed \
 	librewolf-bin \
-	neovim-plug
+	neovim-plug \
+	nerd-fonts-fira-code
