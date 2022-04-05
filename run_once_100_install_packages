@@ -10,4 +10,6 @@ sudo pacman -S --noconfirm --needed \
 	sxhkd \
 	picom \
 	rofi \
-	feh
+	feh \
+	fish \
+	fisher

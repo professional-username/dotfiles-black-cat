@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Set fish as dfeault shell
+chsh -s /bin/fish
+export SHELL=/bin/fish
