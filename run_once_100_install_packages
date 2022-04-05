@@ -7,7 +7,6 @@ sudo pacman -S --noconfirm --needed \
 	kitty \
 	neovim \
 	xf86-input-libinput \
-	bspwm \
 	sxhkd \
 	picom \
 	rofi \
