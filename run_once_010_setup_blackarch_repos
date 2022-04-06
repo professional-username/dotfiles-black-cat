@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Add repos
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sudo ./strap.sh
+
+# Cleanup
+rm strap.sh
+
+# Sync repos
+sudo pacman -Sy

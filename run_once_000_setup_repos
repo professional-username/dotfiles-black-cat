@@ -11,8 +11,12 @@ LINES="
 [extra]
 Include = /etc/pacman.d/mirrorlist-arch
 
+[multilib]
+Include = /etc/pacman.d/mirrorlist-arch
+
 [community]
-Include = /etc/pacman.d/mirrorlist-arch"
+Include = /etc/pacman.d/mirrorlist-arch
+"
 echo "$LINES" | sudo tee -a /etc/pacman.conf
 sudo pacman-key --populate archlinux
 sudo pacman -Sy
