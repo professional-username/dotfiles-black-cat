@@ -4,4 +4,5 @@ yay -S --noconfirm --needed \
 	librewolf-bin \
 	neovim-plug \
 	nerd-fonts-fira-code \
-	bspwm-rounded-corners
+	bspwm-rounded-corners \
+	catppuccin-gtk-theme
