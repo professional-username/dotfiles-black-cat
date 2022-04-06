@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Installation
+git clone https://github.com/catppuccin/papirus-folders.git
+cd papirus-folders
+sudo cp -r src/* /usr/share/icons/Papirus  
+./papirus-folders -C cat-flamingo --theme Papirus-Dark
+
+# Cleanup
+cd ../
+rm -rf papirus-folders

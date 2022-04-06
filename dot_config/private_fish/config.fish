@@ -2,7 +2,7 @@
 set fish_greeting
 
 set -gx EDITOR nvim
-set -gx GTK_THEME Catppuccin-blue
+set -gx XDG_CONFIG_HOME $HOME/.config/
 
 # Set $PATH
 fish_add_path -p $HOME/bin

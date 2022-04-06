@@ -13,4 +13,5 @@ sudo pacman -S --noconfirm --needed \
 	feh \
 	fish \
 	fisher \
-	thunar
+	thunar \
+	papirus-icon-theme
