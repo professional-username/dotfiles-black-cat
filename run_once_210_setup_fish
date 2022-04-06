@@ -1,5 +1,8 @@
-#!/bin/bash
+#!/bin/fish
 
 # Set fish as dfeault shell
-chsh -s /bin/fish
+sudo chsh -s /bin/fish $USER
 export SHELL=/bin/fish
+
+# Install fisher plugins
+fisher update
