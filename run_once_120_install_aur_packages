@@ -5,4 +5,5 @@ yay -S --noconfirm --needed \
 	neovim-plug \
 	nerd-fonts-fira-code \
 	bspwm-rounded-corners \
-	catppuccin-gtk-theme
+	catppuccin-gtk-theme \
+	backlight_control
